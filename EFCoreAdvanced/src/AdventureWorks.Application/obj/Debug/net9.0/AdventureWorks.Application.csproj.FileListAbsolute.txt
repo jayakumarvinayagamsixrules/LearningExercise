@@ -1,0 +1,11 @@
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\bin\Debug\net9.0\AdventureWorks.Application.deps.json
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\bin\Debug\net9.0\AdventureWorks.Application.dll
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\bin\Debug\net9.0\AdventureWorks.Application.pdb
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.AssemblyInfoInputs.cache
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.AssemblyInfo.cs
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.csproj.CoreCompileInputs.cache
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.dll
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\refint\AdventureWorks.Application.dll
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\AdventureWorks.Application.pdb
+D:\AdventureWorks\EFCoreAdvanced\src\AdventureWorks.Application\obj\Debug\net9.0\ref\AdventureWorks.Application.dll

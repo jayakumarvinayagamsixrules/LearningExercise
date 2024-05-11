@@ -1,0 +1,45 @@
+
+dotnet new sln 
+dotnet new classlib AdventureWorks.Application -f
+AdventureWorks.Domain
+AdventureWorks.Infrastructure
+AdventureWorks.Presentation
+AdventureWorks.Terminal
+
+dotnet new classlib -n AdventureWorks.Domain -f net9.0
+dotnet new classlib -n AdventureWorks.Infrastructur -f net9.0
+dotnet new classlib -n AdventureWorks.Application -f net9.0
+dotnet new console -n AdventureWorks.Terminal -f net9.0
+dotnet new classlib -n AdventureWorks.API -f net9.0
+
+dotnet sln .\EFCoreAdvanced.sln add .\src\AdventureWorks.Application\AdventureWorks.Application.csproj
+dotnet sln .\EFCoreAdvanced.sln add .\src\AdventureWorks.Domain\AdventureWorks.Domain.csproj
+dotnet sln .\EFCoreAdvanced.sln add .\src\AdventureWorks.Infrastructur\AdventureWorks.Infrastructur.csproj
+dotnet sln .\EFCoreAdvanced.sln add .\src\AdventureWorks.Terminal\AdventureWorks.Terminal.csproj
+
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+dotnet ef dbcontext scaffold "Server=Server-Name; Database=AdventureWorks;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o AdventureWorksDbContext
+
+dotnet add package Microsoft.Extensions.DependencyInjection
+dotnet add package MediatR
+dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
+
+
+CREATE TABLE #counts
+(
+    table_name varchar(255),
+    row_count int
+)
+
+EXEC sp_MSForEachTable @command1='INSERT #counts (table_name, row_count) SELECT ''?'', COUNT(*) FROM ?'
+SELECT table_name, row_count FROM #counts ORDER BY row_count DESC
+DROP TABLE #counts
+
+dotnet add package Serilog
+dotnet add package Serilog.Settings.Configuration
+dotnet add package Serilog.Sinks.Console
+dotnet add package Serilog.Sinks.File

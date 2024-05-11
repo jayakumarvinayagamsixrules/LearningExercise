@@ -1,0 +1,296 @@
+dbug: 5/11/2024 11:51:09.403 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Address' to 'SalesOrderHeader' has been configured by convention because there are multiple properties on one entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'} that could be matched with the properties on the other entity type - {'BillToAddress', 'ShipToAddress'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.433 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'BillOfMaterial' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'Component', 'ProductAssembly'} that could be matched with the properties on the other entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.471 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Currency' to 'CurrencyRate' has been configured by convention because there are multiple properties on one entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'} that could be matched with the properties on the other entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.472 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'CurrencyRate' to 'Currency' has been configured by convention because there are multiple properties on one entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'} that could be matched with the properties on the other entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.512 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'BillOfMaterial' has been configured by convention because there are multiple properties on one entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'} that could be matched with the properties on the other entity type - {'Component', 'ProductAssembly'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.522 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.544 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'SalesOrderHeader' to 'Address' has been configured by convention because there are multiple properties on one entity type - {'BillToAddress', 'ShipToAddress'} that could be matched with the properties on the other entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.565 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'UnitMeasure' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'} that could be matched with the properties on the other entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.977 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'BillOfMaterial' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'Component', 'ProductAssembly'} that could be matched with the properties on the other entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.978 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'BillOfMaterial' has been configured by convention because there are multiple properties on one entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'} that could be matched with the properties on the other entity type - {'Component', 'ProductAssembly'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.978 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:09.981 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.018 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'CurrencyRate' to 'Currency' has been configured by convention because there are multiple properties on one entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'} that could be matched with the properties on the other entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.018 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Currency' to 'CurrencyRate' has been configured by convention because there are multiple properties on one entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'} that could be matched with the properties on the other entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.129 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.131 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'UnitMeasure' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'} that could be matched with the properties on the other entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.229 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'SalesOrderHeader' to 'Address' has been configured by convention because there are multiple properties on one entity type - {'BillToAddress', 'ShipToAddress'} that could be matched with the properties on the other entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.230 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Address' to 'SalesOrderHeader' has been configured by convention because there are multiple properties on one entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'} that could be matched with the properties on the other entity type - {'BillToAddress', 'ShipToAddress'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:10.676 SqlServerEventId.ByteIdentityColumnWarning[30001] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'SystemInformationId' on entity type 'AwbuildVersion' is of type 'byte', but is set up to use a SQL Server identity column; this requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:10.676 SqlServerEventId.ByteIdentityColumnWarning[30001] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'ShiftId' on entity type 'Shift' is of type 'byte', but is set up to use a SQL Server identity column; this requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.909 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 8.0.4 initialized 'AdventureWorks2019Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.4' with options: DetailedErrorsEnabled 
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:10.960 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<SalesOrderDetail>()
+          .Take(__p_0)
+          .Select(x => new SalesOrder(
+              x.SalesOrderId, 
+              x.SalesOrderDetailId, 
+              x.CarrierTrackingNumber, 
+              x.OrderQty, 
+              x.ProductId, 
+              x.UnitPrice, 
+              x.UnitPriceDiscount, 
+              x.LineTotal
+          ))'
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:11.051 CoreEventId.RowLimitingOperationWithoutOrderByWarning[10102] (Microsoft.EntityFrameworkCore.Query) 
+      The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.120 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => new SingleQueryingEnumerable<SalesOrder>(
+          (RelationalQueryContext)queryContext, 
+          RelationalCommandCache.QueryExpression(
+              Client Projections:
+                  0 -> 0
+                  1 -> 1
+                  2 -> 2
+                  3 -> 3
+                  4 -> 4
+                  5 -> 5
+                  6 -> 6
+                  7 -> 7
+              SELECT TOP(@__p_0) s.SalesOrderID, s.SalesOrderDetailID, s.CarrierTrackingNumber, s.OrderQty, s.ProductID, s.UnitPrice, s.UnitPriceDiscount, s.LineTotal
+              FROM Sales.SalesOrderDetail AS s), 
+          null, 
+          Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SalesOrder>, 
+          AdventureWorks.Infrastructure.AdventureWorksDbContext.AdventureWorks2019Context, 
+          False, 
+          True, 
+          True
+      )'
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.151 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.173 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (18ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.177 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.340 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.345 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.349 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (4ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.355 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (11ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.361 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [s].[SalesOrderID], [s].[SalesOrderDetailID], [s].[CarrierTrackingNumber], [s].[OrderQty], [s].[ProductID], [s].[UnitPrice], [s].[UnitPriceDiscount], [s].[LineTotal]
+      FROM [Sales].[SalesOrderDetail] AS [s]
+-----------------------------------------------------------------
+info: 5/11/2024 11:51:11.405 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (44ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [s].[SalesOrderID], [s].[SalesOrderDetailID], [s].[CarrierTrackingNumber], [s].[OrderQty], [s].[ProductID], [s].[UnitPrice], [s].[UnitPriceDiscount], [s].[LineTotal]
+      FROM [Sales].[SalesOrderDetail] AS [s]
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.423 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.429 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'AdventureWorks2019' on server 'DESKTOP-UD19V1P' is being disposed after spending 20ms reading results.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.432 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:11.437 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P' (5ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.224 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Address' to 'SalesOrderHeader' has been configured by convention because there are multiple properties on one entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'} that could be matched with the properties on the other entity type - {'BillToAddress', 'ShipToAddress'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.250 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'BillOfMaterial' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'Component', 'ProductAssembly'} that could be matched with the properties on the other entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.284 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Currency' to 'CurrencyRate' has been configured by convention because there are multiple properties on one entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'} that could be matched with the properties on the other entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.285 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'CurrencyRate' to 'Currency' has been configured by convention because there are multiple properties on one entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'} that could be matched with the properties on the other entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.317 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'BillOfMaterial' has been configured by convention because there are multiple properties on one entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'} that could be matched with the properties on the other entity type - {'Component', 'ProductAssembly'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.319 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.330 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'SalesOrderHeader' to 'Address' has been configured by convention because there are multiple properties on one entity type - {'BillToAddress', 'ShipToAddress'} that could be matched with the properties on the other entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.346 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'UnitMeasure' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'} that could be matched with the properties on the other entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.772 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'BillOfMaterial' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'Component', 'ProductAssembly'} that could be matched with the properties on the other entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.773 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'BillOfMaterial' has been configured by convention because there are multiple properties on one entity type - {'BillOfMaterialComponents', 'BillOfMaterialProductAssemblies'} that could be matched with the properties on the other entity type - {'Component', 'ProductAssembly'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.774 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.778 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.811 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'CurrencyRate' to 'Currency' has been configured by convention because there are multiple properties on one entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'} that could be matched with the properties on the other entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.812 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Currency' to 'CurrencyRate' has been configured by convention because there are multiple properties on one entity type - {'CurrencyRateFromCurrencyCodeNavigations', 'CurrencyRateToCurrencyCodeNavigations'} that could be matched with the properties on the other entity type - {'FromCurrencyCodeNavigation', 'ToCurrencyCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.891 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Product' to 'UnitMeasure' has been configured by convention because there are multiple properties on one entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'} that could be matched with the properties on the other entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.892 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'UnitMeasure' to 'Product' has been configured by convention because there are multiple properties on one entity type - {'ProductSizeUnitMeasureCodeNavigations', 'ProductWeightUnitMeasureCodeNavigations'} that could be matched with the properties on the other entity type - {'SizeUnitMeasureCodeNavigation', 'WeightUnitMeasureCodeNavigation'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.970 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'SalesOrderHeader' to 'Address' has been configured by convention because there are multiple properties on one entity type - {'BillToAddress', 'ShipToAddress'} that could be matched with the properties on the other entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:30.972 CoreEventId.MultipleNavigationProperties[10607] (Microsoft.EntityFrameworkCore.Model) 
+      No relationship from 'Address' to 'SalesOrderHeader' has been configured by convention because there are multiple properties on one entity type - {'SalesOrderHeaderBillToAddresses', 'SalesOrderHeaderShipToAddresses'} that could be matched with the properties on the other entity type - {'BillToAddress', 'ShipToAddress'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:31.439 SqlServerEventId.ByteIdentityColumnWarning[30001] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'SystemInformationId' on entity type 'AwbuildVersion' is of type 'byte', but is set up to use a SQL Server identity column; this requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:31.440 SqlServerEventId.ByteIdentityColumnWarning[30001] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'ShiftId' on entity type 'Shift' is of type 'byte', but is set up to use a SQL Server identity column; this requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.659 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 8.0.4 initialized 'AdventureWorks2019Context' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.4' with options: DetailedErrorsEnabled 
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.710 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<SalesOrderDetail>()
+          .Take(__p_0)
+          .Select(x => new SalesOrder(
+              x.SalesOrderId, 
+              x.SalesOrderDetailId, 
+              x.CarrierTrackingNumber, 
+              x.OrderQty, 
+              x.ProductId, 
+              x.UnitPrice, 
+              x.UnitPriceDiscount, 
+              x.LineTotal
+          ))'
+-----------------------------------------------------------------
+warn: 5/11/2024 11:51:31.792 CoreEventId.RowLimitingOperationWithoutOrderByWarning[10102] (Microsoft.EntityFrameworkCore.Query) 
+      The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.844 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => new SingleQueryingEnumerable<SalesOrder>(
+          (RelationalQueryContext)queryContext, 
+          RelationalCommandCache.QueryExpression(
+              Client Projections:
+                  0 -> 0
+                  1 -> 1
+                  2 -> 2
+                  3 -> 3
+                  4 -> 4
+                  5 -> 5
+                  6 -> 6
+                  7 -> 7
+              SELECT TOP(@__p_0) s.SalesOrderID, s.SalesOrderDetailID, s.CarrierTrackingNumber, s.OrderQty, s.ProductID, s.UnitPrice, s.UnitPriceDiscount, s.LineTotal
+              FROM Sales.SalesOrderDetail AS s), 
+          null, 
+          Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SalesOrder>, 
+          AdventureWorks.Infrastructure.AdventureWorksDbContext.AdventureWorks2019Context, 
+          False, 
+          True, 
+          True
+      )'
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.880 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.900 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (17ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:31.904 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.059 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.064 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.069 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (5ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.076 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (13ms).
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.081 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [s].[SalesOrderID], [s].[SalesOrderDetailID], [s].[CarrierTrackingNumber], [s].[OrderQty], [s].[ProductID], [s].[UnitPrice], [s].[UnitPriceDiscount], [s].[LineTotal]
+      FROM [Sales].[SalesOrderDetail] AS [s]
+-----------------------------------------------------------------
+info: 5/11/2024 11:51:32.119 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [s].[SalesOrderID], [s].[SalesOrderDetailID], [s].[CarrierTrackingNumber], [s].[OrderQty], [s].[ProductID], [s].[UnitPrice], [s].[UnitPriceDiscount], [s].[LineTotal]
+      FROM [Sales].[SalesOrderDetail] AS [s]
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.137 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.143 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'AdventureWorks2019' on server 'DESKTOP-UD19V1P' is being disposed after spending 19ms reading results.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.146 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P'.
+-----------------------------------------------------------------
+dbug: 5/11/2024 11:51:32.150 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'AdventureWorks2019' on server 'DESKTOP-UD19V1P' (4ms).
+-----------------------------------------------------------------

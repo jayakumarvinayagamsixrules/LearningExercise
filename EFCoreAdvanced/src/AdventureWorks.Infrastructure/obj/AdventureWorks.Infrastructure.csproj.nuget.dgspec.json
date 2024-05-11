@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Infrastructure\\AdventureWorks.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\AdventureWorks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\AdventureWorks.Domain.csproj",
+        "projectName": "AdventureWorks.Domain",
+        "projectPath": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\AdventureWorks.Domain.csproj",
+        "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
+        "outputPath": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/tTmEBHleO9DWewog5ShNyUYz2L6VV3Z4vtF5mB8B2ECnQ6EXBb/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Infrastructure\\AdventureWorks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Infrastructure\\AdventureWorks.Infrastructure.csproj",
+        "projectName": "AdventureWorks.Infrastructure",
+        "projectPath": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Infrastructure\\AdventureWorks.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jay\\.nuget\\packages\\",
+        "outputPath": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/tTmEBHleO9DWewog5ShNyUYz2L6VV3Z4vtF5mB8B2ECnQ6EXBb/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\AdventureWorks.Domain.csproj": {
+                "projectPath": "D:\\AdventureWorks\\EFCoreAdvanced\\src\\AdventureWorks.Domain\\AdventureWorks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.1.24101.2/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
