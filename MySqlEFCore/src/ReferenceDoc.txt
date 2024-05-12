@@ -1,0 +1,14 @@
+EmployeeWorks
+
+dotnet new sln 
+dotnet new classlib EmployeeWorks.Application -f
+EmployeeWorks.Domain
+EmployeeWorks.Infrastructure
+EmployeeWorks.Presentation
+EmployeeWorks.Terminal
+
+dotnet new classlib -n EmployeeWorks.Domain -f net9.0
+dotnet new classlib -n EmployeeWorks.Infrastructure -f net9.0
+dotnet new classlib -n EmployeeWorks.Application -f net9.0
+dotnet new console -n EmployeeWorks.Terminal -f net9.0
+dotnet new classlib -n EmployeeWorks.API -f net9.0
