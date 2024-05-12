@@ -1,0 +1,21 @@
+
+ChinookWorks
+
+dotnet new sln 
+dotnet new classlib ChinookWorks.Application -f
+ChinookWorks.Domain
+ChinookWorks.Infrastructure
+ChinookWorks.Presentation
+ChinookWorks.Terminal
+
+dotnet new classlib -n ChinookWorks.Domain -f net9.0
+dotnet new classlib -n ChinookWorks.Infrastructure -f net9.0
+dotnet new classlib -n ChinookWorks.Application -f net9.0
+dotnet new console -n ChinookWorks.Terminal -f net9.0
+dotnet new classlib -n ChinookWorks.API -f net9.0
+
+
+dotnet sln SqliteWorks.sln add src/ChinookWorks.Application/ChinookWorks.Application.csproj
+dotnet sln SqliteWorks.sln add src/ChinookWorks.Infrastructure/ChinookWorks.Infrastructure.csproj
+dotnet sln SqliteWorks.sln add src/ChinookWorks.Domain/ChinookWorks.Domain.csproj    
+dotnet sln SqliteWorks.sln add src/ChinookWorks.Terminal/ChinookWorks.Terminal.csproj
