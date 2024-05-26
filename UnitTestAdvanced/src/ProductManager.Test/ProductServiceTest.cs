@@ -12,10 +12,9 @@ public class ProductServiceTest
     {
         
     }
-    //  Task<IEnumerable<Product>> GetProductsAsync();    
     [Fact]
     [Trait("GetProductsAsync","Unit-ProductService")]
-    public async Task GetProduct_With_Initial_ShouldReturnEmptyCollection()
+    public async Task GetProducts_With_Initial_ShouldReturnEmptyCollection()
     {
         // Arrange
         var mockProductRepository = A.Fake<IProductRepository>(); //new Mock<IProductRepository>();
@@ -59,8 +58,7 @@ public class ProductServiceTest
             .And
             .HaveCount(itemCount);
     }
-    
-    // Task<Product> GetProductsAsync(int id)
+        
     [Fact]
     [Trait("GetProductsAsync by Id","Unit-ProductService")]
     public async Task GetProduct_WithAnInvalidId_ShouldReturnNull()
@@ -100,12 +98,12 @@ public class ProductServiceTest
         actualProducts.Should()
             .NotBeNull()
             .And
-            .Match(d => ((d as Product).Id == id));
+            .Match(d => ((d! as Product)!.Id == id));
     }
 
     [Theory]
     [InlineData("Dell Laptop")]
-    [InlineData("Jay Apple")]
+    [InlineData("Shimla Apple")]
     [InlineData("Sony-Headset")]
     [Trait("GetProductAsync by Name","Unit-ProductService")]
     public async Task GetProduct_WithAnValidName_ShouldReturnProduct(string name)
@@ -120,10 +118,28 @@ public class ProductServiceTest
          var mockProductService = new ProductService(mockProductRepository);
         
         // Assert
-        var actualProducts = await mockProductService.GetProductAsync(name); 
-        actualProducts.Should()
+        var actualProduct = await mockProductService.GetProductAsync(name); 
+        actualProduct.Should()
             .NotBeNull()
             .And
-            .Match(d => ((d as Product).Name == name));
+            .Match(d => ((d as Product)!.Name == name));
+    }
+
+    [Fact]
+    [Trait("GetProductAsync by Name","Unit-ProductService")]
+    public async Task GetProduct_WithAnInvalidName_ShouldReturnNull()
+    {
+        // Arrange
+        var mockProductRepository = A.Fake<IProductRepository>(); 
+       Product mockProduct = null;
+        string? productName = "";
+        A.CallTo(() => mockProductRepository.GetProductAsync(productName)).Returns(Task.FromResult(mockProduct));
+
+        // Act
+         var mockProductService = new ProductService(mockProductRepository);
+        
+        // Assert
+        var actualProduct = await mockProductService.GetProductAsync(productName); 
+        actualProduct.Should().BeNull();
     }
 }
